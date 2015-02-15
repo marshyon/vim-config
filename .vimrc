@@ -1,15 +1,15 @@
-# COLOUR SCHEME :
-mkdir -p ~/.vim/colors
-cd ~/.vim/colors
-wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
+" # COLOUR SCHEME :
+" mkdir -p ~/.vim/colors
+" cd ~/.vim/colors
+" wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
 
-# SNIPPETS :
-git clone git://github.com/msanders/snipmate.vim.git
-cd snipmate.vim
-cp -R * ~/.vim
+" # SNIPPETS :
+" git clone git://github.com/msanders/snipmate.vim.git
+" cd snipmate.vim
+" cp -R * ~/.vim
 
-# VIMRC
-$ cat .vimrc
+" # VIMRC
+" $ cat .vimrc
 filetype plugin indent on
 set smartindent
 "set paste - screws up cindet, switched to smartindent and will experiment
