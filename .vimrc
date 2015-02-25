@@ -10,6 +10,8 @@
 
 " # VIMRC
 " $ cat .vimrc
+set guifont=Monospace\ 15                                                       
+set colorcolumn=80     
 filetype plugin indent on
 set smartindent
 "set paste - screws up cindet, switched to smartindent and will experiment
