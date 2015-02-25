@@ -10,8 +10,9 @@
 
 " # VIMRC
 " $ cat .vimrc
-set guifont=Monospace\ 15                                                       
-set colorcolumn=80     
+set guifont=Monospace\ 10                                                       
+set colorcolumn=80
+set guioptions-=T  "remove toolbar
 filetype plugin indent on
 set smartindent
 "set paste - screws up cindet, switched to smartindent and will experiment
