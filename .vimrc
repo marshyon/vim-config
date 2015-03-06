@@ -10,6 +10,10 @@
 
 " # VIMRC
 " $ cat .vimrc
+
+"check perl files for errors on save
+autocmd BufWritePost *.pm,*.t,*.pl echom system("perl -Ilib -c " . '"' . expand("%:p"). '"' )
+
 set guifont=Monospace\ 10                                                       
 set colorcolumn=80
 set guioptions-=T  "remove toolbar
