@@ -11,6 +11,15 @@
 " # VIMRC
 " $ cat .vimrc
 
+" to set up pathogen
+" mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+" then to install new plugins, :
+" cd ~/.vim/bundle && \
+" git clone git://github.com/tpope/vim-sensible.git
+"
+execute pathogen#infect()
+
 "check perl files for errors on save
 autocmd BufWritePost *.pm,*.t,*.pl echom system("perl -Ilib -c " . '"' . expand("%:p"). '"' )
 
