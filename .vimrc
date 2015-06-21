@@ -66,4 +66,5 @@ augroup END
 " cd ~/.vim/bundle
 " git clone https://github.com/scrooloose/nerdtree.git
 " git clone https://github.com/jistr/vim-nerdtree-tabs.git
-" 
+" git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
+" # Remember to run :Helptags to generate help tags
