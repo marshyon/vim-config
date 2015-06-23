@@ -68,4 +68,12 @@ augroup END
 " git clone https://github.com/jistr/vim-nerdtree-tabs.git
 " git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 " # Remember to run :Helptags to generate help tags
+
+" map <CNTRL>-jkhl to switch panes                                                                                  │
+map <C-j> <C-W>j                                                                                                     │
+map <C-k> <C-W>k                                                                                                     │
+map <C-h> <C-W>h                                                                                                     │
+map <C-l> <C-W>l                                                                                                     │
+                                                                                                                     │
+" mapt <CNTRL>-t to toggle nerdtree  
 map <C-t> :NERDTreeToggle<CR>
