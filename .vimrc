@@ -68,3 +68,4 @@ augroup END
 " git clone https://github.com/jistr/vim-nerdtree-tabs.git
 " git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 " # Remember to run :Helptags to generate help tags
+map <C-t> :NERDTreeToggle<CR>
