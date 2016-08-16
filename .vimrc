@@ -1,23 +1,4 @@
-" # COLOUR SCHEME :
-" mkdir -p ~/.vim/colors
-" cd ~/.vim/colors
-" wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
 
-" # SNIPPETS :
-" git clone git://github.com/msanders/snipmate.vim.git
-" cd snipmate.vim
-" cp -R * ~/.vim
-
-" # VIMRC
-" $ cat .vimrc
-
-" to set up pathogen
-" mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-" then to install new plugins, :
-" cd ~/.vim/bundle && \
-" git clone git://github.com/tpope/vim-sensible.git
-"
 execute pathogen#infect()
 
 "check perl files for errors on save
@@ -62,13 +43,6 @@ augroup resCur
   autocmd BufWinEnter * call ResCur()
 augroup END
 
-"
-" cd ~/.vim/bundle
-" git clone https://github.com/scrooloose/nerdtree.git
-" git clone https://github.com/jistr/vim-nerdtree-tabs.git
-" git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
-" # Remember to run :Helptags to generate help tags
-
 " map <CNTRL>-jkhl to switch panes 
 map <C-j> <C-W>j
 map <C-k> <C-W>k
@@ -77,3 +51,34 @@ map <C-l> <C-W>l
 
 " mapt <CNTRL>-t to toggle nerdtree  
 map <C-t> :NERDTreeToggle<CR>
+
+" # COLOUR SCHEME :
+" mkdir -p ~/.vim/colors
+" cd ~/.vim/colors
+" wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
+
+" # SNIPPETS :
+" git clone git://github.com/msanders/snipmate.vim.git
+" cd snipmate.vim
+" cp -R * ~/.vim
+
+" # VIMRC
+" $ cat .vimrc
+
+" set cursor colors
+set cursorline
+hi CursorLine   cterm=NONE ctermbg=green ctermfg=white guibg=darkred guifg=white
+hi CursorColumn cterm=NONE ctermbg=green ctermfg=white guibg=darkred guifg=white
+nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+
+
+
+
+" pathogen
+" mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+" plugins :
+" cd ~/.vim/bundle
+" git clone git://github.com/tpope/vim-sensible.git
+" git clone https://github.com/scrooloose/nerdcommenter.git
+
