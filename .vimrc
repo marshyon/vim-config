@@ -64,6 +64,9 @@ nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 " cd ~/.vim/bundle
 " git clone git://github.com/tpope/vim-sensible.git
 " git clone https://github.com/scrooloose/nerdcommenter.git
+" git clone https://github.com/scrooloose/nerdtree.git
+" git clone https://github.com/jistr/vim-nerdtree-tabs.git
+" git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 
 " # SNIPPETS :
 " git clone git://github.com/msanders/snipmate.vim.git
