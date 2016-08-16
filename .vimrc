@@ -16,7 +16,7 @@ set hlsearch
 set t_Co=256
 syntax on
 set background=dark
-colorscheme distinguished
+colorscheme github
 
 " Tell vim to remember certain things when we exit
 "  '10  :  marks will be remembered for up to 10 previously edited files
@@ -74,4 +74,5 @@ nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 " mkdir -p ~/.vim/colors
 " cd ~/.vim/colors
 " wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
+" wget https://raw.githubusercontent.com/endel/vim-github-colorscheme/master/colors/github.vim
 
