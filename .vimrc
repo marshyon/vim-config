@@ -1,4 +1,3 @@
-
 execute pathogen#infect()
 
 "check perl files for errors on save
@@ -52,27 +51,11 @@ map <C-l> <C-W>l
 " mapt <CNTRL>-t to toggle nerdtree  
 map <C-t> :NERDTreeToggle<CR>
 
-" # COLOUR SCHEME :
-" mkdir -p ~/.vim/colors
-" cd ~/.vim/colors
-" wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
-
-" # SNIPPETS :
-" git clone git://github.com/msanders/snipmate.vim.git
-" cd snipmate.vim
-" cp -R * ~/.vim
-
-" # VIMRC
-" $ cat .vimrc
-
 " set cursor colors
 set cursorline
 hi CursorLine   cterm=NONE ctermbg=green ctermfg=white guibg=darkred guifg=white
 hi CursorColumn cterm=NONE ctermbg=green ctermfg=white guibg=darkred guifg=white
 nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
-
-
-
 
 " pathogen
 " mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -81,4 +64,14 @@ nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 " cd ~/.vim/bundle
 " git clone git://github.com/tpope/vim-sensible.git
 " git clone https://github.com/scrooloose/nerdcommenter.git
+
+" # SNIPPETS :
+" git clone git://github.com/msanders/snipmate.vim.git
+" cd snipmate.vim
+" cp -R * ~/.vim
+
+" # COLOUR SCHEME :
+" mkdir -p ~/.vim/colors
+" cd ~/.vim/colors
+" wget https://raw.githubusercontent.com/Lokaltog/vim-distinguished/develop/colors/distinguished.vim 
 
