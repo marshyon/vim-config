@@ -34,14 +34,11 @@ vim-nox
 
 which should be installable with apt-get install vim-nox
 
-we also need ctags for 
+we also need ctags for tagbar to work
 
 ```
-sudo install ctags 
+sudo apt-get install ctags 
 ```
-
-apt-get install ctags tagbar to work
-
 
 ## install Go
 
