@@ -26,13 +26,11 @@ check vim is capable for Neocomplete:
 
 must return 1
 
-if it doesnt, modern ubuntu's will have 
+if it doesnt, modern ubuntu's will have vim-nox:
 
 ```
-vim-nox
+apt-get install vim-nox
 ```
-
-which should be installable with apt-get install vim-nox
 
 we also need ctags for tagbar to work
 
