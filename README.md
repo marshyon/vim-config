@@ -11,10 +11,12 @@ between panes of information
 
 - use the navigation keys preceded by <CNTRL-w>:
 
+```
 <CNTRL-w>k
 <CNTRL-w>h
 <CNTRL-w>j
 <CNTRL-w>l
+```
 
 check vim is capable for Neocomplete:
 
